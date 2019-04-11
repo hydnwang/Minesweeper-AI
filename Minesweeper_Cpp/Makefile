@@ -29,9 +29,5 @@ all: $(SOURCES)
 	@mkdir -p $(BIN_DIR)
 	@g++ -std=c++11 -g $(SOURCES) -o $(BIN_DIR)/Minesweeper
 
-submission: all
-	@rm -f *.zip
-	@echo ""
-	@read -p "Enter Team Name (No spaces, '_', '/', '*'): " teamName; \
-	 echo ""; \
-	 zip -rqq s_$${teamName}.zip $(SOURCE_DIR) $(BIN_DIR)
+clean:
+	@rm -rf $(BIN_DIR)
