@@ -1,6 +1,6 @@
 # MineSweeper AI
 
-This is a classic Minesweeper game with an AI agent. The AI mode will read the game board information and automatically solve it with strategies/algorithms mentioned in this [post][blog-link].
+This is a classic Minesweeper game with an AI agent. The AI mode will read the game board information and automatically solve it using the  strategies/algorithms mentioned in this [post][blog-link].
 
 ## Contributors
 * [**Hayden Wang**](https://github.com/hydnwang)
